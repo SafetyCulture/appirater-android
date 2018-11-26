@@ -4,9 +4,6 @@ repositories {
     mavenCentral()
 }
 
-pmd.enabled = false
-checkstyle.enabled = false
-
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
